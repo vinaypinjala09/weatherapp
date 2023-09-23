@@ -1,1 +1,145 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{ 
+    background-color: rgb(51, 48, 200); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{   
+    position: relative;
+    /* margin-top: 150px; */
+    overflow: hidden;
+    width: 400px;
+    height:500px ;
+    background-color:rgb(74, 72, 222); 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);  
+}
+.upper-data{ 
+    position: relative;
+    display: flex;
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    height: 50%; 
+   
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.upper-data img{
+    height: 100%; 
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lower-data{
+    overflow: hidden;
+    position: relative;
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    height: 50%; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.weather-data{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    z-index: 1;
+    color: beige; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.location{
+    font-size: 1.5em;
+}
+.temperature{
+    font-size: 4em;
+    font-weight: 900;
+} 
+
+
+.weather-info{
+    color: beige;
+    font-size: 1em;
+}
+
+.weather-info-container{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+   
+    background-color:rgb(83, 81, 226);  
+
+
+    display:flex; 
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  
+} 
+
+.weather-info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.weather-info-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info-label img{
+   
+    width: 2em;
+  border-radius: 20px;
+}
+
+.weather-info-label span{
+   
+  color: beige;
+}
+
+.weather-info-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: beige;
+} 
+
+.search{
+    margin-top: 5em; 
+    text-align: center;
+}
+.search input{
+   
+    background-color: rgba(255,255,255, 0.1);
+    margin-bottom: 1em;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 1em;
+    color:#ededed;
+    font-size:1em;
+    text-align: center;
+
+}

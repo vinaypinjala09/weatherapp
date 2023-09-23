@@ -1,3 +1,9 @@
+About Me
+
+Hello! I'm Vinay Pinjala, a seasoned software developer with a strong foundation in Angular, .NET, and Java. I'm passionate about creating exceptional web applications and backend solutions that leverage the power of these technologies.
+
+With expertise in Angular, I specialize in building dynamic and responsive user interfaces that provide engaging user experiences. Whether it's crafting pixel-perfect designs or optimizing front-end performance, I thrive in the world of modern web development.
+
 # Weatherapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
